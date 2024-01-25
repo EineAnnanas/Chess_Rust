@@ -100,6 +100,20 @@ impl Bitboard {
     }
 
     // Bitscan
+    pub fn get_bit_position(mut data: u64) -> Vec<u8> {
+        let mut output: Vec<u8> = Vec::new();
+        while data != 0u64 {
+            // least significant one
+            let temp_data = (data & !data + 1) - 1;
+            output.push(Self::count_bits(temp_data) + 1);
+            for &elemnt in output.iter() {
+                println!("{}", elemnt);
+            }
+
+            data ^= temp_data;
+        }
+        return output;
+    }
 }
 
 pub struct StaticBitboards;
