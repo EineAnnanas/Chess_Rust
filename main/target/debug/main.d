@@ -1,0 +1,1 @@
+/Users/fabianhodeige/Documents/Chess_Rust/main/target/debug/main: /Users/fabianhodeige/Documents/Chess_Rust/main/src/bitboard.rs /Users/fabianhodeige/Documents/Chess_Rust/main/src/chessboard.rs /Users/fabianhodeige/Documents/Chess_Rust/main/src/legalmoves.rs /Users/fabianhodeige/Documents/Chess_Rust/main/src/main.rs

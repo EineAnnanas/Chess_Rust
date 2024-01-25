@@ -1,0 +1,6 @@
+{
+    "rust.rustfmtPath": "rustfmt",
+    "editor.formatOnSave": true
+    // Add other Rust-related settings as needed
+  }
+  
